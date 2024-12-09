@@ -27,8 +27,9 @@ const s = Math.cn.add(z1,z2);
 
 > A complex number is expected to be an array of form `[re,im]`.
 
-- `mod(z)` - returns modulus of a number
-- `arg(z)` - returns argument of a number
+- `mod(z)` - returns the modulus of a number
+- `arg(z)` - returns the argument of a number
+- `conjugate(z)` - returns the conjugate of a number
 - `add(z1,z2)` - performs addition of numbers
 - `sub(z1,z2)` - performs subtraction of numbers
 - `mul(z1,z2)` - performs multiplication of numbers
