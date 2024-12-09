@@ -6,6 +6,7 @@ Math.cn = {
 	mod,
 	arg,
 	add,
+	conjugate,
 	sub,
 	mul,
 	div,
@@ -44,6 +45,10 @@ function arg([a,b]) {
 		}
 		return _fix(theta);
 	}
+}
+
+function conjugate([a,b]) {
+	return [a,-b];
 }
 
 function add(z1,z2) {
