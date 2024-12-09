@@ -21,7 +21,7 @@ const z1 = [1,2];
 const z2 = [3,4];
 
 const s = Math.cn.add(z1,z2);
-\\ [4,6]
+// [4,6]
 ```
 
 
