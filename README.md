@@ -1,5 +1,27 @@
 # math-cn
+
 Math extension to work on complex numbers.
+
+For example to perform:
+
+$$
+\begin{array}{l}
+z_1 = 1+2i
+\\
+z_2 = 3+4i
+\\
+s = z_1 + z_2 = 4+6i
+\end{array}
+$$
+
+write:
+
+```
+const z1 = [1,2];
+const z2 = [3,4];
+const s = Math.cn.add(z1,z2);
+```
+
 
 ## Methods
 
